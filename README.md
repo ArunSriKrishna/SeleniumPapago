@@ -7,7 +7,7 @@ a Selenium (Java) bot to automatically translate text using Papago Translate<br>
 ### Prerequisites
 Requires ChromeDriver and Selenium Package.<br>
 - Download the ChromeDriver: https://chromedriver.chromium.org/<br>
-- Download Selenium for Java: https://selenium-release.storage.googleapis.com/3.141/selenium-java-3.141.59.zip<br><br>
+- Download Selenium for Java: https://www.selenium.dev/downloads/<br><br>
 
 
 ### Usage
