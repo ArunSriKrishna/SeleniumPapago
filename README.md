@@ -19,7 +19,7 @@ $ java SeleniumPapago
 </pre>
 
 
-### Language[index]
+### language[index]
 |Language Code|	Description|	Index|
 |----|----|----|
 |auto| Detect Language|	0|
