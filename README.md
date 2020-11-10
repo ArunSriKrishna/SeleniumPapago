@@ -13,7 +13,7 @@ Requires ChromeDriver and Selenium Package.<br>
 ### Usage
 - Initialize string 'chrome_driver_location' to the location of ChromeDriver
 - Assign source_lang (input language-code) and trans_lang (output language-code) to language[index] by refering to table below
-- Assign source (source-text)
+- Assign source (input source-text)
 <pre>
 $ javac SeleniumPapago.java
 $ java SeleniumPapago
