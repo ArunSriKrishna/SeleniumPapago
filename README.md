@@ -11,6 +11,10 @@ Requires ChromeDriver and Selenium Package.<br>
 
 
 ### Usage
+<pre>
+$ javac SeleniumPapago.java
+$ java SeleniumPapago
+</pre>
 
 
 ### Languages
