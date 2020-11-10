@@ -21,7 +21,7 @@ public class SeleniumPapagoWeb
     public static void main(String[] args) throws InterruptedException
     {
 
-    System.setProperty("webdriver.chrome.driver", "<chrome driver>");
+    System.setProperty("webdriver.chrome.driver", "<chrome driver location>");
     WebDriver driver = new ChromeDriver();
     driver.manage().window();
     
