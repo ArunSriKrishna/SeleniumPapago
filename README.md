@@ -11,13 +11,15 @@ Requires ChromeDriver and Selenium Package.<br>
 
 
 ### Usage
+- Initialize string 'chrome_driver_location' to the location of ChromeDriver
+- Assign source_lang (input language-code) and trans_lang (output language-code) to language[index] by refering to table below
 <pre>
 $ javac SeleniumPapago.java
 $ java SeleniumPapago
 </pre>
 
 
-### Languages
+### Language[index]
 |Language Code|	Description|	Index|
 |----|----|----|
 |auto| Detect Language|	0|
