@@ -14,21 +14,14 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class SeleniumPapagoWeb  
 {
-    static String chapter_baseurl = "https://mtlmemorize.000webhostapp.com/";
-    static String output_dir = "/home/arunkrishna/output/";
+    static String baseurl = "";
     static String[] language = {"auto", "ko", "en", "ja", "zh-CN", "zh-TW", "es", "fr", "de", "ru", "pt", "it", "vi", "th", "id", "hi"};
     
-    public static String getchapter_url(int count)
-    {
-        return chapter_baseurl + count + "-2/";
-    }
-    
+
     public static void main(String[] args) throws InterruptedException
     {
 
-        int chapter_count = 1;
-
-    System.setProperty("webdriver.chrome.driver", "//home//arunkrishna//Downloads//chromedriver");
+    System.setProperty("webdriver.chrome.driver", "<chrome driver>");
     WebDriver driver = new ChromeDriver();
     driver.manage().window();
     
@@ -36,7 +29,7 @@ public class SeleniumPapagoWeb
     driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-    driver.get("https://papago.naver.net/website?locale=en&source=auto&target=en&url="+getchapter_url(chapter_count));
+    driver.get("https://papago.naver.net/website?locale=en&source=auto&target=en&url="+baseurl));
    
     driver.switchTo().frame("translatedFrame");
     WebElement text = driver.findElement(By.xpath("/html/body/div[1]/div/article/div"));
