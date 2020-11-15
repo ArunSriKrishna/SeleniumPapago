@@ -1,6 +1,6 @@
 # SeleniumPapago
 <img src="https://camo.githubusercontent.com/bfa4382ee7e27108a0ca2cb7990c32bdbbf650faa43140f9e9ba62101cf74c96/68747470733a2f2f70617061676f2e6e617665722e636f6d2f37396130326635373965343361343232663765633235616563343466343563662e737667" alt="official website" width="320" data-canonical-src="https://papago.naver.com/79a02f579e43a422f7ec25aec44f45cf.svg" style="max-width:100%;">
-a Selenium script to translate a input text using Papago Translate<br>
+a Java-Selenium script to translate a input text using Papago Translate<br>
 
 
 
